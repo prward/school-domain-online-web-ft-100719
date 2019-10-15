@@ -14,7 +14,7 @@ class School
  end
  
  def grade(classroom)
-   @grade = classroom
+   @grade = roster
  end
 end
 
