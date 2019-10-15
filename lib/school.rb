@@ -9,6 +9,7 @@ class School
  end
   
  def add_student(student, classroom)
+   roster[classroom] = []
    roster[classroom] << student
  end
 end
