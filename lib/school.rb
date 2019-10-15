@@ -15,7 +15,7 @@ class School
  
  def grade(classroom)
    roster.detect do |x, y|
-     if 
+     if x == classroom
  end
 end
 
