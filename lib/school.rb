@@ -14,7 +14,7 @@ class School
  end
  
  def grade(classroom)
-   
+   roster.detect do 
  end
 end
 
