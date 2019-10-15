@@ -13,12 +13,7 @@ class School
    roster[classroom] << student
  end
  
- def grade=(grade)
-   @grade = grade
- end
- 
  def grade
-   @grade
  end
 end
 
