@@ -14,10 +14,7 @@ class School
  end
  
  def grade(classroom)
-   roster.detect do |x, y|
-     if x == classroom
-       return y
-     end
+   @grade = classroom
  end
 end
 
